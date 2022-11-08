@@ -35,13 +35,13 @@
   
   <body id="top" class="bg-dark" >
   <!-- NAVBAR STARTS HERE! -->
-    <nav class="navbar navbar-expand-lg navbar  sticky-top p-1">
+    <nav class="navbar navbar-expand-lg   sticky-top p-1">
       <img src="./images/logorm.png" height="60" width="100" >
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-start ">
+        <ul class="nav ">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -97,7 +97,7 @@
     <div class="d-lg-flex p-md-3 mx-auto">
       <div id="aboutcard-corner" class="aboutcard-corner card col-lg-6 col-md-6 col-10 mb-5 mb-lg-0 mx-auto" >
         <div class="card-body" >
-            <h5 class="hello-card text-left mt-3 mx-4">About me</h5>
+            <h5 class="hello-card text-left mt-3 mx-4 ">About me</h5>
             <p class="section-text text-justify">
            I previously worked at Accenture in the Philippines as Platform Experience Associate for more than 2 years then took certification of intensive training in Web Development at Zuitt Bootcamp to career shift. I am now a certified Fullstack Web Developer and currently looking for a job to nurture my foundation in website development.
             </p>
@@ -127,6 +127,10 @@
                         data-aos-delay="200" class="col-1"><img class="d-flex img-fluid" src="./images/css.png" alt="">
                     </div>
                     <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1000"
+                        data-aos-delay="600" class="col-1"><img class="d-flex img-fluid" src="./images/mern.png"
+                            alt="">
+                    </div>
+                    <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1000"
                         data-aos-delay="300" class="col-1"><img class="d-flex img-fluid" src="./images/js.png"
                             alt="">
                     </div>
@@ -136,10 +140,7 @@
                     <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1000"
                         data-aos-delay="500" class="col-1"><img class="d-flex img-fluid" src="./images/bootstrap.png" alt="">
                     </div>
-                    <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1000"
-                        data-aos-delay="600" class="col-1"><img class="d-flex img-fluid" src="./images/mern.png"
-                            alt="">
-                    </div>
+                    
                     <div class="col-3"></div>
                 </div>
             </div>
@@ -155,14 +156,14 @@
             <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500"data-aos-delay="100" class="col-lg-4 col-md-6 col-xs-12">
               <div class="c1 card card-cover h-100 overflow-hidden rounded-4 shadow-lg post">
                 <div class="d-flex flex-column h-100 text-shadow-1">
-              <a href="https://github.com/Jedbagunu" class="display-6 lh-1 post-title">PORTFOLIO</a>
+              <a href="https://github.com/Jedbagunu" target="_blank" class="display-6 lh-1 post-title">FIRST PORTFOLIO</a>
             </div>
            </div>
           </div>
       <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500"data-aos-delay="200" class="col-lg-4 col-md-6 col-xs-12">
          <div class="c2 card card-cover h-100 overflow-hidden rounded-4 shadow-lg post">
            <div class="d-flex flex-column h-100 text-shadow-1">
-              <a href="https://dashboard.heroku.com/apps/limitless-ravine-61280" class="display-6 lh-1 post-title">E-Commerce API</a>
+              <a href="https://dashboard.heroku.com/apps/limitless-ravine-61280" target="_blank" class="display-6 lh-1 post-title">E-Commerce API</a>
             </div>
           </div>
       </div>
@@ -170,8 +171,8 @@
                             data-aos-delay="300" class="col-lg-4 col-md-6 col-xs-12">
                             <div class="c3 card card-cover h-100 overflow-hidden rounded-4 shadow-lg post">
                                 <div class="d-flex flex-column h-100 text-shadow-1">
-                                    <h3 class="display-6 lh-1 post-title">E-commerce Website
-                                    </h3>
+                                    <a href="https://classicscooters-7texamaqr-jedbagunu.vercel.app/login2" target="_blank" class="display-6 lh-1 post-title">E-commerce Website
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +180,7 @@
                             data-aos-delay="100" class="col-lg-4 col-md-6 col-xs-12">
                             <div class="c4 card card-cover h-100 overflow-hidden rounded-4 shadow-lg post">
                                 <div class="d-flex flex-column h-100 text-shadow-1">
-                                    <a href="https://gitlab.com/dashboard/projects" class="display-6 lh-1 post-title">Bootcamp Activities
+                                    <a href="https://gitlab.com/dashboard/projects" target="_blank" class="display-6 lh-1 post-title">Bootcamp Activities
                                     </a>
                                 </div>
                             </div>
@@ -188,7 +189,7 @@
                             data-aos-delay="200" class="col-lg-4 col-md-6 col-xs-12">
                             <div class="c5 card card-cover h-100 overflow-hidden rounded-4 shadow-lg post">
                                 <div class="d-flex flex-column h-100 text-shadow-1">
-                                    <a href="https://gitlab.com/dashboard/projects" class="display-6 lh-1 post-title">Services
+                                    <a href="https://gitlab.com/dashboard/projects" target="_blank" class="display-6 lh-1 post-title">Services
                                     </a>
                                 </div>
                             </div>
@@ -208,11 +209,14 @@
         <!-- PROJECTS ENDS HERE -->
 
         <!-- CONTACT FORM -->
-        <section class="mt-1 p-card col-sm-4 col-md-12 p-2">
-            <h2 class="mb-1 mt-1 pt-2 text-light d-flex justify-content-center" > Contact Me</h2>
-            <div class="d-lg-flex justify-content-center">
-              <div class="container card col-md-8 col-sm-8 col-lg-4 mb-5">
-               <form id="contactForm">
+    <section class="d-lg-flex p-md-3 mx-auto">
+      <div id="aboutcard-corner" class="aboutcard-corner card col-lg-4 col-md-6 col-10 mb-5 mb-lg-0 mx-auto" >
+        <div class="card-body" >
+            <h5 class="hello-card text-left mt-3 mx-4 ">Let's work together!</h5>
+            <p class="section-text text-justify">
+           By submitting a message, you will be redirected to your email. I will respond as soon a I will get notified.
+            </p>
+            <form id="contactForm">
                   <div class="mb-3" >
                     <label class="form-label" for="name">Name</label>
                     <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
@@ -238,9 +242,7 @@
                   <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center mb-3">Form submission successful!</div>
                   </div>          
-            <button id="button" type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#exampleModal">
-              Submit
-            </button>
+             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzCMrfrldWZwpJhWjNRCFWqSFDDsGBKCDWMkDcBJdjJMlvMJjXKJBbbFrfzZLcCxpwSsjGg" class="btn btn-secondary" target="_blank">Submit</a>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
              <div class="modal-dialog" role="document">
                <div class="modal-content">
@@ -255,18 +257,17 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            
-                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
               </div>
             </form>
-            </div>  
-          </div>
-        </section>
+        </div>
+      </div>
+  </section> 
+  <!-- CONTACT FORM ENDS HERE -->
 
-        <!-- CONTACT FORM ENDS HERE -->
   <!-- FOOTER STARTS HERE! -->
   <footer>
       <a class="nav-link"  id="footer">Jed-Creative-Works | 2022 </a>

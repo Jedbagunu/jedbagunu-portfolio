@@ -26,16 +26,6 @@ textarea {
 
 :root {
 
-  /**
-   * colors
-   */
-
-
-
-  /**
-   * typography
-   */
-
 
   /**
    * transition
@@ -68,6 +58,7 @@ textarea {
 .circle-img {
   width: 250px;
 
+
 }
 
 .line1 {
@@ -97,6 +88,9 @@ textarea {
 }
 .nav-link: hover {
   color: white;
+}
+.collapse {
+  color: red;
 }
 /*NAVBAR END HERE*/
 
@@ -215,9 +209,10 @@ textarea {
           
         }*/
 #photo2 {
-          box-shadow:20px 20px 50px rgb(0 0 0 / 0.6);
+          box-shadow:20px 20px 50px rgb(0 0 0 / 0.9);
           height: 250px;
           width: 300px;
+          border-color: none;r
 
 }
 
@@ -339,10 +334,11 @@ textarea {
 }
 .post-title {
   position: relative;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.333;
   transition: 0.4s ease-out;
+  color: orange;
 }
 
 .c1 {
@@ -358,11 +354,11 @@ textarea {
   background-size: cover;
 }
 .c4 {
-  background-image: url(img/card-photo4.jpg);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyUpaRb4laRD1fZ8W3k7RQ8dR4vF31AJCSlQ&usqp=CAU");
   background-size: cover;
 }
 .c5 {
-  background-image: url(img/card-photo5.jpg);
+  background-image: url(./images/freelance.jfif);
   background-size: cover;
   width: auto;
 }
@@ -445,6 +441,8 @@ textarea {
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
+
+
 
 
 
